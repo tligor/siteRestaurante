@@ -1,0 +1,128 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #8f7c56;
+    ;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #8f7c56;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-food .nav-link.active:hover  {
+    color: #fff;
+}
+.navbar-toggler{
+    background-color: #ffeae6 ;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+strong{
+    font-weight: 500;
+    color: #8f7c56;
+}
+
+#about, #food{
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color: #8f7c56; 
+}
+.nav-food .nav-link.active,
+#contact button {
+    background-color: #8f7c56;
+    color: #fff;
+}
+
+.nav-food .nav-link:hover{
+    color: #8f7c56;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
+.slider__img{
+    width: 100%;
+}
+#slider {
+    position: relative;
+    height: 600px;
+    overflow: hidden
+}
+#slider img {
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+}
+#slider .item a {
+    width: 100%;
+    height: 768px;
+    overflow: hidden;
+    display: flex
+}
+.slider__content {
+    width: 450px;
+    height: 100%;
+    padding: 0 0 0 20px
+}
+#slider .slider__img {
+    width: 100%
+}
+#slider .slider__img img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 768px
+}
+#slider .owl-theme .owl-dots {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#slider .owl-theme .owl-dots .owl-dot h2 {
+    display: none
+}
+#slider .owl-theme .owl-dots .owl-dot {
+    margin: 0 5px
+}
+.owl-theme .owl-dots .owl-dot:hover h2 {
+    padding-left: 10px;
+    -webkit-transition: .5s ease-out
+}
+.owl-carousel .animated{
+    animation-duration: 1000ms;
+    animation-fill-mode: both;
+}
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
