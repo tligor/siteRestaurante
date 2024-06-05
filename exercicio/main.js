@@ -8,5 +8,6 @@ $(document).ready(function(){
         animateOut: 'fadeOut',
         autoplaySpeed: 800,
         slideSpeed: 500,
+        mouseDrag: false
     });
   });
