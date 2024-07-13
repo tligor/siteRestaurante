@@ -1,5 +1,7 @@
 ## Site Restaurante
 
+![image](https://github.com/user-attachments/assets/5df8f588-efd7-4e43-a8b4-dbf529e14989)
+
 Um site de apresentação de restaurante com seu cardápio.
 
 ### Funcionalidades
